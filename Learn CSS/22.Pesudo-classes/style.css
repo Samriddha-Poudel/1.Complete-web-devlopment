@@ -1,0 +1,88 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px;
+}
+
+.primary-button:link{
+    color: green;
+    padding: 10px;
+}
+
+.primary-button:visited{
+    color: orange;
+}
+
+.primary-button:hover{
+    color: red;
+    background-color:black;
+}
+
+.primary-button:active{
+ color: black;
+ background-color: white;
+ border: 4px solid green;
+
+}
+/* 
+ul li:first-child{
+    background-color: violet;
+}
+
+
+
+ul li:last-child{
+    background-color: red;
+} */
+
+
+/* nth child */
+/* an+b */
+
+ul li:nth-child(2n+1){
+    background-color: gray;
+}
+
+
+
+h2::first-letter{
+ font-size: 3rem;
+
+}
+
+p::first-line{
+    background-color: burlywood;
+}
+
+
+::selection{
+    color: greenyellow;
+    background-color: black;
+}
+
+
+/* before and after */
+
+h3::before{
+    content:    "👉";
+}
+
+h3::after{
+    content:    "👈";
+}
+
+
+
+.requried::after{
+    content: '*';
+    color: red;
+}
+
+.important::after{
+    content:' important';
+background-color: red;
+color: white;
+padding: 0.2rem;
+font-size: 0.5rem;
+margin: 10px;
+vertical-align: middle;
+}

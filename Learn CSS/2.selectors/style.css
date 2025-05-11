@@ -1,0 +1,37 @@
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+body {
+    font-size: 24px;
+}
+
+p:hover{
+    font-family: monospace;
+}
+
+#first ,#second  ,#third{
+    color:red
+} 
+
+#second{
+    color: blue;
+}
+
+#first>p{
+    color: aqua;
+}
+
+
+.purple{
+    color: purple;
+    /* font-family: monospace; */
+}
+.highlight{
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+   
+    

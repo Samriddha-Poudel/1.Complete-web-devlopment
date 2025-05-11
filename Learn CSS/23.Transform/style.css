@@ -1,0 +1,25 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: steelblue;
+    margin: 80px auto;
+    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(45deg) scale(1.2) skew(30deg) translate(50px, 50px); */
+  transition: 0.5s ease;
+    transform-origin: 100px 200px ;                 /* 100px from x direction and 200px from y direction */
+}
+
+
+.box:hover{
+    transform: rotate(45deg);
+}
